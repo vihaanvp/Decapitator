@@ -1,0 +1,55 @@
+# Maven build directory
+/target/
+
+# Built artifacts
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+
+# Eclipse
+.project
+.classpath
+/.settings/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs, temp, crash dumps
+*.log
+*.tmp
+hs_err_pid*
+*.hprof
+
+# Java class files
+*.class
+
+# Gradle (if ever used)
+.gradle/
+build/
+
+# Local server/test folders (ignore test server output like plugins, worlds, logs)
+# Keep this if you run a local Paper/Spigot server inside the repo for testing
+/plugins/
+/logs/
+/worlds/
+/cache/
+
+# Misc editors
+*~
+*.swp
+*.swo
+
+# Ignore Mac Finder metadata
+._*
+
+# Optional: ignore local config containing secrets (uncomment if needed)
+# secret.properties

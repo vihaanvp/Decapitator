@@ -1,0 +1,29 @@
+name: Decapitator
+description: $description
+version: '${version}'
+
+main: me.vihaanvp.decapitator.Decapitator
+api-version: '26.1.2'
+load: POSTWORLD
+
+authors: [ VihaanVP ]
+
+commands:
+  head:
+    description: Gives you a player head or manages Decapitator.
+    usage: /<command> [player] | /head count [player] | /head reload
+    permission: decapitator.head
+
+permissions:
+  decapitator.head:
+    description: Allows using /head to get your own head.
+    default: true
+  decapitator.head.others:
+    description: Allows getting another player's head with /head <player>.
+    default: op
+  decapitator.reload:
+    description: Allows reloading the plugin's config and player data.
+    default: op
+  decapitator.count.others:
+    description: Allows viewing other players' head counts.
+    default: op

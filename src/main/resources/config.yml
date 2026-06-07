@@ -1,0 +1,7 @@
+# Decapitator configuration
+# Enable or disable the plugin
+enabled: true
+
+# Maximum number of heads a player can order (per-player limit).
+# Set to -1 for unlimited heads.
+max-heads-per-player: -1
