@@ -1,6 +1,6 @@
 name: Decapitator
-description: $description
-version: '${version}'
+description: "A PaperMC plugin that allows players to get their player head a certain number of times by running /head"
+version: '1.0'
 
 main: me.vihaanvp.decapitator.Decapitator
 api-version: '26.1.2'
